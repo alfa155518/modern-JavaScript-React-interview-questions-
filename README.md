@@ -1557,7 +1557,7 @@ function Child({ sendData }) {
 }
 ```
 
-### 40.  how to send data from child to parent using useref
+### 40. how to send data from child to parent using useref
 
     **Example:**
 
