@@ -1010,7 +1010,7 @@ Example:
 
 
 
-### 1. What is React?
+### 1. What is React
 
 React is a JavaScript library for building user interfaces, specifically for single-page applications. It allows developers to create reusable UI components.
 
@@ -1026,7 +1026,7 @@ function App() {
 export default App;
 ```
 
-### 2. What is useMemo?
+### 2. What is useMemo
 
 useMemo is a React hook that memoizes the result of a computation to avoid expensive recalculations on every render unless its dependencies change.
 
@@ -1044,7 +1044,7 @@ function Example({ number }) {
 }
 ```
 
-### 3. What are the features of React?
+### 3. What are the features of React
 
 - Component-based architecture
 - Virtual DOM
@@ -1072,7 +1072,7 @@ function App() {
 export default App;
 ```
 
-### 4. What is JSX?
+### 4. What is JSX
 
 JSX is a syntax extension for JavaScript that allows you to write HTML elements in JavaScript.
 
@@ -1082,7 +1082,7 @@ JSX is a syntax extension for JavaScript that allows you to write HTML elements 
 const element = <h1>Hello, World!</h1>;
 ```
 
-### 5. What is DOM?
+### 5. What is DOM
 
 The DOM (Document Object Model) represents the structure of a web document as a tree of objects.
 
@@ -1111,7 +1111,7 @@ const element = <h1>Hello, World!</h1>;
 ReactDOM.render(element, document.getElementById("root"));
 ```
 
-### 7. What is the component life cycle of React class component?
+### 7. What is the component life cycle of React class component
 
 The lifecycle includes:
 
@@ -1133,7 +1133,7 @@ class MyComponent extends React.Component {
 }
 ```
 
-### 8. What are fragments in React?
+### 8. What are fragments in React
 
 Fragments let you group a list of children without adding extra nodes to the DOM.
 
@@ -1152,7 +1152,7 @@ function FragmentExample() {
 }
 ```
 
-### 9. What are props in React?
+### 9. What are props in React
 
 Props are read-only attributes passed from a parent component to a child component.
 
@@ -1164,7 +1164,7 @@ function Greeting(props) {
 }
 ```
 
-### 10. What are synthetic events in React?
+### 10. What are synthetic events in React
 
     Synthetic events are React's cross-browser wrapper around the browser's native events.
 
@@ -1180,17 +1180,17 @@ function Button() {
 }
 ```
 
-### 11. What is the difference between package.json and package-lock.json?
+### 11. What is the difference between package.json and package-lock.json
 
 - package.json: Lists project dependencies.
 - package-lock.json: Records the exact versions of installed dependencies.
 
-### 12. What are the differences between client-side and server-side rendering?
+### 12. What are the differences between client-side and server-side rendering
 
 - Client-side rendering: The content is rendered in the browser using JavaScript.
 - Server-side rendering: Content is rendered on the server and sent as a fully-rendered page.
 
-### 13. What is state in ReactJS?
+### 13. What is state in ReactJS
 
     State is an object that holds dynamic data within a component. When the state changes, the component re-renders.
 
@@ -1211,7 +1211,7 @@ function Counter() {
 }
 ```
 
-### 14. What are props?
+### 14. What are props
 
     Props are used to pass data from a parent component to a child component.
 
@@ -1227,21 +1227,21 @@ function Parent() {
 }
 ```
 
-### 15. What are the differences between state and props in React?
+### 15. What are the differences between state and props in React
 
 - State: Local to a component, can be changed.
 - Props: Passed from parent to child, read-only.
 
-### 16. What is props drilling?
+### 16. What is props drilling
 
 - Props drilling is the process of passing props down through multiple levels of components, - even if intermediate components don't need the data.
 
-### 17. What are the disadvantages of props drilling and how can we avoid it?
+### 17. What are the disadvantages of props drilling and how can we avoid it
 
 - Disadvantages: Leads to tightly coupled components.
 - Solution: Use React Context API or state management libraries like Redux.
 
-### 18. What are Pure components in React?
+### 18. What are Pure components in React
 
     Pure components in React are components that perform a shallow comparison of props and state to avoid unnecessary re-renders.
 
@@ -1255,7 +1255,7 @@ class MyPureComponent extends React.PureComponent {
 }
 ```
 
-### 19. What are Refs in React?
+### 19. What are Refs in React
 
     Refs provide a way to access the DOM elements or React components directly.
 
@@ -1280,7 +1280,7 @@ function InputComponent() {
 }
 ```
 
-### 20. What is meant by forward ref?
+### 20. What is meant by forward ref
 
     forwardRef is a technique to pass refs from a parent to a child component.
 
@@ -1290,7 +1290,7 @@ function InputComponent() {
 const FancyInput = React.forwardRef((props, ref) => <input ref={ref} />);
 ```
 
-### 21. What are Error boundaries?
+### 21. What are Error boundaries
 
     Error boundaries catch JavaScript errors in child components and display a fallback UI.
 
@@ -1317,7 +1317,7 @@ class ErrorBoundary extends React.Component {
 }
 ```
 
-### 22. What are Higher Order Components in React?
+### 22. What are Higher Order Components in React
 
     A Higher Order Component (HOC) is a function that takes a component and returns a new component with added functionality.
 
@@ -1332,12 +1332,12 @@ function withLogger(WrappedComponent) {
 }
 ```
 
-### 23. What are the differences between controlled and uncontrolled components?
+### 23. What are the differences between controlled and uncontrolled components
 
 - Controlled components: Form data is handled by React state.
 - Uncontrolled components: Form data is handled by the DOM.
 
-### 24. What is useCallback?
+### 24. What is useCallback
 
     useCallback is a hook that memoizes a function to prevent it from being recreated on every render unless its dependencies change.
 
@@ -1355,12 +1355,12 @@ function Counter() {
 }
 ```
 
-### 25. What are the differences between useMemo and useCallback?
+### 25. What are the differences between useMemo and useCallback
 
 - useMemo: Memoizes the result of a computation.
 - useCallback: Memoizes the function itself.
 
-### 26. What are keys in React?
+### 26. What are keys in React
 
     Keys help React identify which items have changed, been added, or removed.
 
@@ -1371,7 +1371,7 @@ const list = ["Apple", "Banana", "Cherry"];
 const items = list.map((item, index) => <li key={index}>{item}</li>);
 ```
 
-### 27. What is lazy loading in React?
+### 27. What is lazy loading in React
 
     Lazy loading is the technique of loading components or resources only when they are needed.
 
@@ -1389,7 +1389,7 @@ function App() {
 }
 ```
 
-### 28. What is suspense in React?
+### 28. What is suspense in React
 
     Suspense is a component that allows for delaying the rendering of a component until some condition (like data fetching) is met.
 
@@ -1401,7 +1401,7 @@ function App() {
 </React.Suspense>
 ```
 
-### 29. What are custom hooks?
+### 29. What are custom hooks
 
     Custom hooks are reusable functions that allow you to share logic between components.
 
@@ -1418,7 +1418,7 @@ function useCounter(initialValue = 0) {
 }
 ```
 
-### 30. What is the useReducer hook?
+### 30. What is the useReducer hook
 
     useReducer is a hook that is used to manage more complex state logic compared to useState.
 
@@ -1449,7 +1449,7 @@ function Counter() {
 }
 ```
 
-### 31. What are Portals in React?
+### 31. What are Portals in React
 
     Portals allow rendering components outside their parent DOM hierarchy.
 
@@ -1459,7 +1459,7 @@ function Counter() {
 ReactDOM.createPortal(<Child />, document.getElementById("modal-root"));
 ```
 
-### 32. What is context in React?
+### 32. What is context in React
 
     The Context API allows you to pass data through the component tree without passing props manually at every level.
 
@@ -1486,11 +1486,11 @@ function ThemedButton() {
 }
 ```
 
-### 33. Practical question: Give an example of Context API usage?
+### 33. Practical question: Give an example of Context API usage
 
 - See the answer for the Context API example above.
 
-### 34. What is the purpose of callback function as an argument of setState()?
+### 34. What is the purpose of callback function as an argument of setState()
 
     The callback function in setState ensures that state updates are processed before executing further logic.
 
@@ -1502,11 +1502,11 @@ this.setState({ count: this.state.count + 1 }, () => {
 });
 ```
 
-### 35. Practical question Create a custom hook for increment/decrement counter?
+### 35. Practical question Create a custom hook for increment/decrement counter
 
 - See the example in the custom hook question above.
 
-### 36. which lifecycle hooks are replaced by useeffectnents?
+### 36. which lifecycle hooks are replaced by useeffectnents
 
     useEffect replaces componentDidMount, componentDidUpdate, and componentWillUnmount.
 
@@ -1531,7 +1531,7 @@ useEffect(() => {
 </React.StrictMode>
 ```
 
-### 38. What are the different ways to pass data from a child component to a parent component in React
+### 38.  ways to pass data from child to parent in react
 
 - Using a callback function.
 - Using useRef.
