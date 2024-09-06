@@ -1502,11 +1502,11 @@ this.setState({ count: this.state.count + 1 }, () => {
 });
 ```
 
-### 35. Practical question: Create a custom hook for increment/decrement counter?
+### 35. Practical question Create a custom hook for increment/decrement counter?
 
 - See the example in the custom hook question above.
 
-### 36. Which lifecycle hooks in class components are replaced with useEffect in functional components?
+### 36. which lifecycle hooks are replaced by useeffectnents?
 
     useEffect replaces componentDidMount, componentDidUpdate, and componentWillUnmount.
 
@@ -1531,13 +1531,13 @@ useEffect(() => {
 </React.StrictMode>
 ```
 
-### 38. What are the different ways to pass data from child component to parent component in React?
+### 38. ways to pass data from child to parent in reac
 
 - Using a callback function.
 - Using useRef.
 - Context API.
 
-### 39. Practical question: How to send data from child to parent using callback functions?
+### 39. how to send data from child to parent using callback functions
 
     **Example:**
 
