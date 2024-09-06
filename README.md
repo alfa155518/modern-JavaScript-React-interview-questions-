@@ -1,4 +1,4 @@
-# JavaScript Interview Questions & Answers
+# modern JavaScript React interview Questions & Answers
 
  Click :star:if you like the project and follow [LinkedIn Profile](https://www.linkedin.com/in/ahmed-hassop) for more updates. Check [API Collection Free](https://github.com/alfa155518/API-s-collection-free) 
 
