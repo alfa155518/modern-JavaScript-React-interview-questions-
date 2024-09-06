@@ -1008,7 +1008,8 @@ Example:
 
 -------------------------------------------------------------------------------------------------------------------------------------------
 
-                                                                           # React Questions & Answers 
+  # React Questions & Answers 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -1169,7 +1170,7 @@ function Greeting(props) {
 
 ### 10. What are synthetic events in React
 
-    Synthetic events are React's cross-browser wrapper around the browser's native events.
+   Synthetic events are React's cross-browser wrapper around the browser's native events.
 
 **Example:**
 
@@ -1195,7 +1196,7 @@ function Button() {
 
 ### 13. What is state in ReactJS
 
-    State is an object that holds dynamic data within a component. When the state changes, the component re-renders.
+   State is an object that holds dynamic data within a component. When the state changes, the component re-renders.
 
 **Example:**
 
@@ -1216,7 +1217,7 @@ function Counter() {
 
 ### 14. What are props
 
-    Props are used to pass data from a parent component to a child component.
+   Props are used to pass data from a parent component to a child component.
 
 **Example:**
 
@@ -1246,7 +1247,7 @@ function Parent() {
 
 ### 18. What are Pure components in React
 
-    Pure components in React are components that perform a shallow comparison of props and state to avoid unnecessary re-renders.
+   Pure components in React are components that perform a shallow comparison of props and state to avoid unnecessary re-renders.
 
 **Example:**
 
@@ -1260,7 +1261,7 @@ class MyPureComponent extends React.PureComponent {
 
 ### 19. What are Refs in React
 
-    Refs provide a way to access the DOM elements or React components directly.
+   Refs provide a way to access the DOM elements or React components directly.
 
 **Example:**
 
@@ -1285,7 +1286,7 @@ function InputComponent() {
 
 ### 20. What is meant by forward ref
 
-    forwardRef is a technique to pass refs from a parent to a child component.
+   forwardRef is a technique to pass refs from a parent to a child component.
 
 **Example:**
 
@@ -1295,7 +1296,7 @@ const FancyInput = React.forwardRef((props, ref) => <input ref={ref} />);
 
 ### 21. What are Error boundaries
 
-    Error boundaries catch JavaScript errors in child components and display a fallback UI.
+   Error boundaries catch JavaScript errors in child components and display a fallback UI.
 
 **Example:**
 
@@ -1322,7 +1323,7 @@ class ErrorBoundary extends React.Component {
 
 ### 22. What are Higher Order Components in React
 
-    A Higher Order Component (HOC) is a function that takes a component and returns a new component with added functionality.
+   A Higher Order Component (HOC) is a function that takes a component and returns a new component with added functionality.
 
 **Example:**
 
@@ -1342,7 +1343,7 @@ function withLogger(WrappedComponent) {
 
 ### 24. What is useCallback
 
-    useCallback is a hook that memoizes a function to prevent it from being recreated on every render unless its dependencies change.
+   useCallback is a hook that memoizes a function to prevent it from being recreated on every render unless its dependencies change.
 
 **Example:**
 
@@ -1365,7 +1366,7 @@ function Counter() {
 
 ### 26. What are keys in React
 
-    Keys help React identify which items have changed, been added, or removed.
+   Keys help React identify which items have changed, been added, or removed.
 
 **Example:**
 
@@ -1376,7 +1377,7 @@ const items = list.map((item, index) => <li key={index}>{item}</li>);
 
 ### 27. What is lazy loading in React
 
-    Lazy loading is the technique of loading components or resources only when they are needed.
+   Lazy loading is the technique of loading components or resources only when they are needed.
 
 **Example:**
 
@@ -1394,7 +1395,7 @@ function App() {
 
 ### 28. What is suspense in React
 
-    Suspense is a component that allows for delaying the rendering of a component until some condition (like data fetching) is met.
+   Suspense is a component that allows for delaying the rendering of a component until some condition (like data fetching) is met.
 
 **Example:**
 
@@ -1406,7 +1407,7 @@ function App() {
 
 ### 29. What are custom hooks
 
-    Custom hooks are reusable functions that allow you to share logic between components.
+   Custom hooks are reusable functions that allow you to share logic between components.
 
 **Example:**
 
@@ -1423,7 +1424,7 @@ function useCounter(initialValue = 0) {
 
 ### 30. What is the useReducer hook
 
-    useReducer is a hook that is used to manage more complex state logic compared to useState.
+   useReducer is a hook that is used to manage more complex state logic compared to useState.
 
 **Example:**
 
@@ -1454,7 +1455,7 @@ function Counter() {
 
 ### 31. What are Portals in React
 
-    Portals allow rendering components outside their parent DOM hierarchy.
+   Portals allow rendering components outside their parent DOM hierarchy.
 
 **Example:**
 
@@ -1464,7 +1465,7 @@ ReactDOM.createPortal(<Child />, document.getElementById("modal-root"));
 
 ### 32. What is context in React
 
-    The Context API allows you to pass data through the component tree without passing props manually at every level.
+   The Context API allows you to pass data through the component tree without passing props manually at every level.
 
 **Example:**
 
@@ -1495,7 +1496,7 @@ function ThemedButton() {
 
 ### 34. What is the purpose of callback function as an argument of setState()
 
-    The callback function in setState ensures that state updates are processed before executing further logic.
+   The callback function in setState ensures that state updates are processed before executing further logic.
 
 **Example:**
 
@@ -1511,7 +1512,7 @@ this.setState({ count: this.state.count + 1 }, () => {
 
 ### 36. which lifecycle hooks are replaced by useeffectnents
 
-    useEffect replaces componentDidMount, componentDidUpdate, and componentWillUnmount.
+   useEffect replaces componentDidMount, componentDidUpdate, and componentWillUnmount.
 
 **Example:**
 
@@ -1524,7 +1525,7 @@ useEffect(() => {
 
 ### 37. What is Strict Mode in React
 
-    Strict Mode is a tool that highlights potential problems in an application by identifying unsafe lifecycle methods or deprecated APIs.
+   Strict Mode is a tool that highlights potential problems in an application by identifying unsafe lifecycle methods or deprecated APIs.
 
 **Example:**
 
@@ -1542,7 +1543,7 @@ useEffect(() => {
 
 ### 39. how to send data from child to parent using callback functions
 
-    **Example:**
+**Example:**
 
 ```jsx
 function Parent() {
@@ -1562,7 +1563,7 @@ function Child({ sendData }) {
 
 ### 40. how to send data from child to parent using useref
 
-    **Example:**
+**Example:**
 
 ```jsx
 function Parent() {
