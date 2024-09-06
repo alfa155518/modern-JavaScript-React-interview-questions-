@@ -3,11 +3,14 @@
  Click :star:if you like the project and follow [LinkedIn Profile](https://www.linkedin.com/in/ahmed-hassop) for more updates. Check [API Collection Free](https://github.com/alfa155518/API-s-collection-free) 
 
 
+# Don't forget to pray and support our people in Gaza and Palestine <img src="https://upload.wikimedia.org/wikipedia/commons/0/00/Flag_of_Palestine.svg" alt="Palestine Flag" width="100" height="60">
+
 -----
 
 <!-- TOC_START -->
 
-# modern JavaScript Interview Questions
+# modern JavaScript Interview Questions <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" width="100" height="100">
+
 
 | No. | Questions                                                                                                                                                                                                                                          |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -76,7 +79,7 @@
 
 
 
-# Modern React Interview Questions
+# Modern React Interview Questions  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Icon" width="100" height="100">
 
 | No. | Questions                                                                                                                                                 |
 | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
