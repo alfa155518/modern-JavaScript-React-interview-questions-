@@ -1531,7 +1531,7 @@ useEffect(() => {
 </React.StrictMode>
 ```
 
-### 38. ways to pass data from child to parent in reac
+### 38. What are the different ways to pass data from a child component to a parent component in React
 
 - Using a callback function.
 - Using useRef.
