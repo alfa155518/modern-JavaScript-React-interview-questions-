@@ -1557,7 +1557,7 @@ function Child({ sendData }) {
 }
 ```
 
-### 40. Practical question: How to send the data from child component to parent using useRef?
+### 40.  how to send data from child to parent using useref
 
     **Example:**
 
