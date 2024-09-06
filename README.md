@@ -1519,7 +1519,7 @@ useEffect(() => {
 }, []);
 ```
 
-### 37. What is Strict Mode in React?
+### 37. What is Strict Mode in React
 
     Strict Mode is a tool that highlights potential problems in an application by identifying unsafe lifecycle methods or deprecated APIs.
 
